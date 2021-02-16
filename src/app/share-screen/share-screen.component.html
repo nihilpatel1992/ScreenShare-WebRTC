@@ -1,0 +1,4 @@
+<div  style="position: relative; height: 99vh; width: 100%; overflow: hidden" bounds constrainByBounds="true">
+  <video  id="localVideo" class="videoClass" width="100%" height="100%" style="height: 100vh;width:100%;overflow:hidden" autoplay></video>
+  <div id="draggableDiv" [ngxDraggableDom]="true" (moved)="moveDraggableMoved($event)" style="position:absolute;border: 2px solid red;height:200px;width:300px;top:0;left:0;"></div>
+</div>
